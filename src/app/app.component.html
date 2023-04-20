@@ -1,0 +1,11 @@
+<google-map
+  height="400px"
+  width="750px"
+  [center]="center"
+  [zoom]="zoom"
+  (mapClick)="moveMap($event)"
+  (mapMousemove)="move($event)"
+>
+  <!-- <map-marker *ngFor="let vertex of vertices" [position]="vertex"></map-marker>
+  <map-polyline [path]="vertices"></map-polyline> -->
+</google-map>
